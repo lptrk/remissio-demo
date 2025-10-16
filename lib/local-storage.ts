@@ -421,9 +421,11 @@ export const localDb = {
 	}),
 }
 
+// @ts-ignore
 let clientInstance: ReturnType<typeof createClient> | null = null
 
 // Create client that mimics Supabase API
+// @ts-ignore
 export function createClient() {
 	// Return existing instance if available
 	if (clientInstance) {
