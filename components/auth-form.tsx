@@ -129,6 +129,9 @@ export function AuthForm() {
 					<Button type="submit" className="w-full" disabled={isLoading}>
 						{isLoading ? "Wird angemeldet..." : "Anmelden"}
 					</Button>
+					<p className={'text-sm text-gray-600'}>
+						Hinweis: Dies ist eine Demo-Version. Alle eingegebenen Daten werden nicht auf unseren Servern gespeichert und verbleiben nur lokal in deinem Browser.
+					</p>
 				</form>
 			</TabsContent>
 
@@ -174,6 +177,9 @@ export function AuthForm() {
 					<Button type="submit" className="w-full" disabled={isLoading}>
 						{isLoading ? "Wird erstellt..." : "Konto erstellen"}
 					</Button>
+					<p className={'text-sm text-gray-600'}>
+						Hinweis: Dies ist eine Demo-Version. Alle eingegebenen Daten werden nicht auf unseren Servern gespeichert und verbleiben nur lokal in deinem Browser.
+					</p>
 				</form>
 			</TabsContent>
 		</Tabs>
